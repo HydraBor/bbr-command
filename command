@@ -5,3 +5,5 @@ echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
 echo "net.ipv4.tcp_congestion_control=bbrplus" >> /etc/sysctl.conf
 sysctl -p
 reboot
+
+bash <(curl -s -L https://git.io/v2ray.sh)
